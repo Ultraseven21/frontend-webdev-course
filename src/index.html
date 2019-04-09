@@ -10,13 +10,13 @@
     <header>
       <h2>Currency Converter</h2>
     </header>
-    <form class="controls">
+    <form id="currency-converter-form" class="controls">
       <div class="field">
         <div class="field-label">
           <label>Base</label>
         </div>
         <div class="field-input">
-          <select>
+          <select id="base">
             <option value="EUR">EUR</option>
             <option value="USD">USD</option>
           </select>
@@ -36,19 +36,7 @@
       </div>
     </form>
     <div id="isLoading">Loading...</div>
-    <ul id="currency-list">
-      <li><div>EUR</div><div>1000</div></li>
-      <li><div>USD</div><div>1000</div></li>
-    </ul>
-    <script type="text/javascript" src="/bundle.js"></script>
-  </body>
-</html>
-    </form>
-    <div id ="isLoading">Loading...</div>
-    <ul id ="currency-list">
-      <li>Item 1</li>
-      <li>Item 2</li>
-    </ul>
+    <ul id="currency-list"></ul>
     <script type="text/javascript" src="/bundle.js"></script>
   </body>
 </html>
